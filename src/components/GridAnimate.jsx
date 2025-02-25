@@ -28,7 +28,7 @@ const DotGrid = () => {
         { value: 1, easing: "easeOutSine", duration: 250 },
         { value: 0.5, easing: "easeInOutQuad", duration: 500 },
       ],
-      delay: anime.stagger(75, {
+      delay: anime.stagger(50, {
         grid: [GRID_WIDTH, GRID_HEIGHT],
         from: e.target.dataset.index,
       }),
